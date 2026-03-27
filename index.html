@@ -888,8 +888,8 @@
                     Subtle radial gradients creating depth. Add <code class="mono">.bg-mesh</code> div behind content.
                 </p>
                 <div style="position: relative; padding: 40px; background: var(--bg-secondary); border-radius: 12px; text-align: center;">
-                    <div class="bg-mesh" style="border-radius: 12px;"></div>
-                    <p style="color: var(--text-muted);">Background mesh creates ambient purple/cyan glow areas</p>
+                    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; border-radius: 12px; background: radial-gradient(ellipse at 20% 20%, rgba(139, 92, 246, 0.3) 0%, transparent 50%), radial-gradient(ellipse at 80% 80%, rgba(6, 182, 212, 0.2) 0%, transparent 50%);"></div>
+                    <p style="position: relative; z-index: 1; color: var(--text-muted);">Background mesh creates ambient purple/cyan glow areas</p>
                 </div>
 
                 <h3 class="subsection-title">Matrix Rain</h3>
