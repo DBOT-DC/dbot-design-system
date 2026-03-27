@@ -2418,7 +2418,7 @@ body {
 }
 
 .pulse-ring {
-    
+    position: absolute;
     width: 40px;
     height: 40px;
     border: 2px solid var(--purple);
