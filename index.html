@@ -878,7 +878,7 @@
                     CRT scanline effect. Add <code class="mono">.scanlines</code> div to body for retro terminal look.
                 </p>
                 <div style="position: relative; padding: 24px; background: var(--bg-tertiary); border-radius: 8px; overflow: hidden;">
-                    <div class="scanlines"></div>
+                    <div class="scanlines" style="position: absolute;"></div>
                     <p class="mono" style="color: var(--text-primary); position: relative; z-index: 1;">
                         > SCANLINES_ACTIVE: TRUE<br>
                         > RETRO_MODE: ENABLED
@@ -889,7 +889,8 @@
                 <p style="color: var(--text-muted); margin-bottom: 16px;">
                     Subtle radial gradients creating depth. Add <code class="mono">.bg-mesh</code> div behind content.
                 </p>
-                <div class="bg-mesh" style="padding: 40px; background: var(--bg-secondary); border-radius: 12px; text-align: center;">
+                <div style="position: relative; padding: 40px; background: var(--bg-secondary); border-radius: 12px; text-align: center;">
+                    <div class="bg-mesh" style="border-radius: 12px;"></div>
                     <p style="color: var(--text-muted);">Background mesh creates ambient purple/cyan glow areas</p>
                 </div>
 
@@ -898,7 +899,7 @@
                     Animated falling characters. Add <code class="mono">.matrix-rain</code> with <code class="mono">.matrix-column</code> children.
                 </p>
                 <div style="position: relative; height: 120px; background: var(--bg-tertiary); border-radius: 8px; overflow: hidden;">
-                    <div class="matrix-rain active" style="opacity: 0.3;">
+                    <div class="matrix-rain active" style="position: absolute; opacity: 0.3;">
                         <div class="matrix-column" style="left: 10%; animation-duration: 8s; animation-delay: 0s; color: var(--purple);">DB0T</div>
                         <div class="matrix-column" style="left: 30%; animation-duration: 6s; animation-delay: 1s; color: var(--cyan);">NET</div>
                         <div class="matrix-column" style="left: 50%; animation-duration: 7s; animation-delay: 0.5s; color: var(--purple);">W0RKS</div>
