@@ -163,7 +163,7 @@ body {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    background: rgba(34, 197, 94, 0.1);
+    background: rgba(34, 197, 94, 0.2);
     border: 1px solid var(--green);
     color: var(--green);
     padding: 8px 16px;
@@ -537,7 +537,7 @@ body {
 }
 
 .btn-outline-cyan:hover {
-    background: rgba(6, 182, 212, 0.1);
+    background: rgba(6, 182, 212, 0.2);
 }
 
 .btn-ghost {
@@ -567,7 +567,7 @@ body {
 }
 
 .btn-danger-outline:hover {
-    background: rgba(239, 68, 68, 0.1);
+    background: rgba(239, 68, 68, 0.2);
 }
 
 .btn-sm { padding: 6px 12px; font-size: 0.75rem; }
@@ -811,7 +811,7 @@ body {
 .badge-success, .badge-passed {
     background: rgba(34, 197, 94, 0.15);
     color: var(--green);
-    border: 1px solid rgba(34, 197, 94, 0.3);
+    border: 2px solid rgba(34, 197, 94, 0.5);
 }
 
 .badge-warning, .badge-pending {
@@ -823,13 +823,13 @@ body {
 .badge-info, .badge-active {
     background: rgba(6, 182, 212, 0.15);
     color: var(--cyan);
-    border: 1px solid rgba(6, 182, 212, 0.3);
+    border: 2px solid rgba(6, 182, 212, 0.5);
 }
 
 .badge-error, .badge-defeated {
     background: rgba(239, 68, 68, 0.15);
     color: var(--red);
-    border: 1px solid rgba(239, 68, 68, 0.3);
+    border: 2px solid rgba(239, 68, 68, 0.5);
 }
 
 .badge-purple {
@@ -841,7 +841,7 @@ body {
 .badge-cyan {
     background: rgba(6, 182, 212, 0.15);
     color: var(--cyan);
-    border: 1px solid rgba(6, 182, 212, 0.3);
+    border: 2px solid rgba(6, 182, 212, 0.5);
 }
 
 .badge-showcase {
@@ -900,8 +900,8 @@ body {
     align-items: center;
     gap: 8px;
     padding: 6px 12px;
-    background: rgba(34, 197, 94, 0.1);
-    border: 1px solid rgba(34, 197, 94, 0.3);
+    background: rgba(34, 197, 94, 0.2);
+    border: 2px solid rgba(34, 197, 94, 0.5);
     border-radius: 50px;
     font-family: var(--font-mono);
     font-size: 0.75rem;
@@ -1429,26 +1429,26 @@ body {
 .alert i { font-size: 1.2rem; }
 
 .alert.success {
-    background: rgba(34, 197, 94, 0.1);
-    border: 1px solid rgba(34, 197, 94, 0.3);
+    background: rgba(34, 197, 94, 0.2);
+    border: 2px solid rgba(34, 197, 94, 0.5);
     color: var(--green);
 }
 
 .alert.error {
-    background: rgba(239, 68, 68, 0.1);
-    border: 1px solid rgba(239, 68, 68, 0.3);
+    background: rgba(239, 68, 68, 0.2);
+    border: 2px solid rgba(239, 68, 68, 0.5);
     color: var(--red);
 }
 
 .alert.warning {
-    background: rgba(251, 191, 36, 0.1);
-    border: 1px solid rgba(251, 191, 36, 0.3);
+    background: rgba(251, 191, 36, 0.2);
+    border: 2px solid rgba(251, 191, 36, 0.5);
     color: var(--gold);
 }
 
 .alert.info {
-    background: rgba(6, 182, 212, 0.1);
-    border: 1px solid rgba(6, 182, 212, 0.3);
+    background: rgba(6, 182, 212, 0.2);
+    border: 2px solid rgba(6, 182, 212, 0.5);
     color: var(--cyan);
 }
 
