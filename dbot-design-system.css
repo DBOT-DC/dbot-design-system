@@ -1654,14 +1654,22 @@ body {
     left: 2px;
     text-shadow: -2px 0 var(--red);
     clip: rect(24px, 550px, 90px, 0);
-    animation: glitch-anim-2 3s infinite linear alternate-reverse;
+    animation: none;
+}
+
+.glitch:hover::before {
+    animation: glitch-anim-2 0.4s infinite linear alternate-reverse;
 }
 
 .glitch::after {
     left: -2px;
     text-shadow: -2px 0 var(--cyan);
     clip: rect(85px, 550px, 140px, 0);
-    animation: glitch-anim 2.5s infinite linear alternate-reverse;
+    animation: none;
+}
+
+.glitch:hover::after {
+    animation: glitch-anim 0.4s infinite linear alternate-reverse;
 }
 
 @keyframes glitch-anim {
