@@ -265,6 +265,38 @@ body {
 .font-sample.mono { font-family: var(--font-mono); }
 .font-sample.sans { font-family: var(--font-sans); }
 
+
+.type-showcase {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+}
+
+.type-card {
+    flex: 1;
+    min-width: 280px;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.type-card.mono .type-sample {
+    font-family: var(--font-mono);
+}
+
+.type-card.sans .type-sample {
+    font-family: var(--font-sans);
+}
+
+.type-card code {
+    display: block;
+    margin-top: 12px;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
 .type-scale {
     display: flex;
     flex-direction: column;
