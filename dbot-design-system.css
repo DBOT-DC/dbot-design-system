@@ -1904,11 +1904,6 @@ body {
     height: 120px;
     border-radius: 50%;
     position: relative;
-    background: conic-gradient(
-        var(--green) 0% 35%,
-        var(--red) 35% 55%,
-        var(--text-dim) 55% 100%
-    );
 }
 
 .donut-chart::after {
