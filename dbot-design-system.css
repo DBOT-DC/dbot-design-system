@@ -1529,7 +1529,7 @@ body {
 
 /* Scanlines Overlay */
 .scanlines {
-    
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -1548,7 +1548,7 @@ body {
 
 /* Background Mesh Gradient */
 .bg-mesh {
-    
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
