@@ -1899,11 +1899,23 @@ body {
     border-radius: 2px 2px 0 0;
     min-height: 10px;
     transition: all 0.3s ease;
+    position: relative;
 }
 
 .chart-bar:hover {
     background: var(--purple);
     box-shadow: 0 0 10px var(--purple-glow);
+}
+
+.chart-bar:hover::after {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 8px solid var(--purple);
 }
 
 /* Donut Chart */
@@ -2904,7 +2916,7 @@ body {
 
 .chart-bar:hover::after {
     content: '';
-    
+    position: absolute;
     top: -8px;
     left: 50%;
     transform: translateX(-50%);
