@@ -1,0 +1,1446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DBOT Design System v2.1 - The single source of truth for all DBOT platforms. A comprehensive guide to brand colors, typography, components, and UI patterns.">
+    <title>DBOT Design System v2.1 - Source of Truth</title>
+    <link rel="stylesheet" href="dbot-design-system.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
+</head>
+<body>
+    <!-- Global Effects -->
+    <div class="scanlines"></div>
+    <div class="bg-mesh"></div>
+    <div class="matrix-rain">
+        <div class="matrix-column" style="left: 5%; animation-duration: 12s; animation-delay: 0s;">D0B0T</div>
+        <div class="matrix-column" style="left: 15%; animation-duration: 10s; animation-delay: 2s;">1N3T</div>
+        <div class="matrix-column" style="left: 25%; animation-duration: 14s; animation-delay: 1s;">W0RKS</div>
+        <div class="matrix-column" style="left: 35%; animation-duration: 11s; animation-delay: 3s;">D0G3</div>
+        <div class="matrix-column" style="left: 45%; animation-duration: 13s; animation-delay: 0.5s;">CH41N</div>
+        <div class="matrix-column" style="left: 55%; animation-duration: 9s; animation-delay: 2.5s;">V0T3</div>
+        <div class="matrix-column" style="left: 65%; animation-duration: 15s; animation-delay: 1.5s;">G0V</div>
+        <div class="matrix-column" style="left: 75%; animation-duration: 10s; animation-delay: 3.5s;">D40</div>
+        <div class="matrix-column" style="left: 85%; animation-duration: 12s; animation-delay: 0.8s;">N3UR4L</div>
+        <div class="matrix-column" style="left: 95%; animation-duration: 11s; animation-delay: 2.2s;">0S</div>
+    </div>
+
+    <div class="terminal">
+        <header class="terminal-header">
+            <div class="terminal-controls">
+                <div class="control close"></div>
+                <div class="control minimize"></div>
+                <div class="control maximize"></div>
+            </div>
+            <div class="terminal-title">DBOT_DESIGN_SYSTEM_v2.1.md - Ultimate Source of Truth</div>
+            <div class="terminal-status online">
+                <div class="status-dot"></div>
+                <span>SYSTEM READY</span>
+            </div>
+        </header>
+        
+        <div class="terminal-body" role="main">
+            
+            <!-- Hero / Masthead -->
+            <section class="hero-section">
+                <h1 class="hero-title">DBOT <span class="gradient-text">Design System</span></h1>
+                <p class="hero-subtitle">The single source of truth for all DBOT platforms. Version 2.1</p>
+                <div class="version-badge">
+                    <i class="ph ph-sparkle"></i>
+                    v2.1 • 2026-03-26 • Neural OS Edition
+                </div>
+            </section>
+
+            <!-- ============ SECTION 1: COLORS ============ -->
+            <section class="content-section">
+                <h2 class="section-header">
+                    <i class="ph ph-palette"></i>
+                    01. Brand Colors
+                </h2>
+                
+                <h3 class="subsection-title">Primary Palette</h3>
+                <div class="color-grid">
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: #8B5CF6"></div>
+                        <div class="color-info">
+                            <span class="color-name">Purple Primary</span>
+                            <code class="color-var">--purple</code>
+                            <code class="color-hex">#8B5CF6</code>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: #A78BFA"></div>
+                        <div class="color-info">
+                            <span class="color-name">Purple Light</span>
+                            <code class="color-var">--purple-light</code>
+                            <code class="color-hex">#A78BFA</code>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: #06B6D4"></div>
+                        <div class="color-info">
+                            <span class="color-name">Cyan</span>
+                            <code class="color-var">--cyan</code>
+                            <code class="color-hex">#06B6D4</code>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: #22C55E"></div>
+                        <div class="color-info">
+                            <span class="color-name">Green Success</span>
+                            <code class="color-var">--green</code>
+                            <code class="color-hex">#22C55E</code>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: #EF4444"></div>
+                        <div class="color-info">
+                            <span class="color-name">Red Error</span>
+                            <code class="color-var">--red</code>
+                            <code class="color-hex">#EF4444</code>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: #F59E0B"></div>
+                        <div class="color-info">
+                            <span class="color-name">Amber Warning</span>
+                            <code class="color-var">--amber</code>
+                            <code class="color-hex">#F59E0B</code>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: #BA9F33"></div>
+                        <div class="color-info">
+                            <span class="color-name">Gold Premium</span>
+                            <code class="color-var">--gold</code>
+                            <code class="color-hex">#BA9F33</code>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: linear-gradient(135deg, #8B5CF6, #06B6D4)"></div>
+                        <div class="color-info">
+                            <span class="color-name">Brand Gradient</span>
+                            <code class="color-var">purple → cyan</code>
+                            <code class="color-hex">Hero / CTA use</code>
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="subsection-title">Background Shades</h3>
+                <div class="color-grid">
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: #0A0A0F"></div>
+                        <div class="color-info">
+                            <span class="color-name">Background Dark</span>
+                            <code class="color-var">--bg-primary</code>
+                            <code class="color-hex">#0A0A0F</code>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: #12121A"></div>
+                        <div class="color-info">
+                            <span class="color-name">Background Card</span>
+                            <code class="color-var">--bg-secondary</code>
+                            <code class="color-hex">#12121A</code>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: #1A1A25"></div>
+                        <div class="color-info">
+                            <span class="color-name">Background Hover</span>
+                            <code class="color-var">--bg-tertiary</code>
+                            <code class="color-hex">#1A1A25</code>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: #262635"></div>
+                        <div class="color-info">
+                            <span class="color-name">Background Active</span>
+                            <code class="color-var">--bg-active</code>
+                            <code class="color-hex">#262635</code>
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="subsection-title">Text Colors</h3>
+                <div class="color-grid">
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: #E2E8F0"></div>
+                        <div class="color-info">
+                            <span class="color-name">Text Primary</span>
+                            <code class="color-var">--text-primary</code>
+                            <code class="color-hex">#E2E8F0</code>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: #94A3B8"></div>
+                        <div class="color-info">
+                            <span class="color-name">Text Muted</span>
+                            <code class="color-var">--text-muted</code>
+                            <code class="color-hex">#94A3B8</code>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: #64748B"></div>
+                        <div class="color-info">
+                            <span class="color-name">Text Secondary</span>
+                            <code class="color-var">--text-secondary</code>
+                            <code class="color-hex">#64748B</code>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: #334155"></div>
+                        <div class="color-info">
+                            <span class="color-name">Text Dim</span>
+                            <code class="color-var">--text-dim</code>
+                            <code class="color-hex">#334155</code>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ============ SECTION 2: TYPOGRAPHY ============ -->
+            <section class="content-section">
+                <h2 class="section-header">
+                    <i class="ph ph-text-aa"></i>
+                    02. Typography
+                </h2>
+                
+                <h3 class="subsection-title">Font Families</h3>
+                <div class="type-showcase">
+                    <div class="type-card mono">
+                        <span class="type-label">JetBrains Mono - Monospace</span>
+                        <span class="type-sample">ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789</span>
+                        <code>Headings, addresses, stats, badges</code>
+                    </div>
+                    <div class="type-card sans">
+                        <span class="type-label">Space Grotesk - Sans Serif</span>
+                        <span class="type-sample">The quick brown fox jumps over the lazy dog</span>
+                        <code>Body text, descriptions, UI labels</code>
+                    </div>
+                </div>
+
+                <h3 class="subsection-title">Type Scale</h3>
+                <div class="type-scale">
+                    <div class="type-item">
+                        <span class="type-label">Display XL</span>
+                        <span class="type-display-xl">Dashboard</span>
+                        <code>3rem / bold / gradient or primary</code>
+                    </div>
+                    <div class="type-item">
+                        <span class="type-label">H1 Title</span>
+                        <h1 class="type-h1">Active Proposals</h1>
+                        <code>2.5rem / bold / gradient or primary</code>
+                    </div>
+                    <div class="type-item">
+                        <span class="type-label">H2 Section</span>
+                        <h2 class="type-h2">Your Voting Power</h2>
+                        <code>1.5rem / semibold / primary</code>
+                    </div>
+                    <div class="type-item">
+                        <span class="type-label">H3 Card</span>
+                        <h3 class="type-h3">Proposal Details</h3>
+                        <code>1.25rem / semibold</code>
+                    </div>
+                    <div class="type-item">
+                        <span class="type-label">Body Large</span>
+                        <p class="type-body-lg">This is larger body text for descriptions and important content.</p>
+                        <code>1.125rem / normal / primary</code>
+                    </div>
+                    <div class="type-item">
+                        <span class="type-label">Body Default</span>
+                        <p class="type-body">Regular body text for UI elements and paragraphs.</p>
+                        <code>1rem / normal / primary</code>
+                    </div>
+                    <div class="type-item">
+                        <span class="type-label">Small Text</span>
+                        <p class="type-small">Supporting text, labels, captions, timestamps</p>
+                        <code>0.875rem / text-muted</code>
+                    </div>
+                    <div class="type-item">
+                        <span class="type-label">Mono/Code</span>
+                        <code class="type-mono">0x742d35Cc6634C0532925a3b844Bc9e7595f5b2D6</code>
+                        <code>JetBrains Mono / text-muted</code>
+                    </div>
+                </div>
+
+                <h3 class="subsection-title">Text Treatments</h3>
+                <div class="text-treatments">
+                    <span class="gradient-text">Gradient Text</span>
+                    <span class="text-glow">Glowing Text</span>
+                    <span class="text-shadow">Shadow Text</span>
+                    <span class="text-uppercase">Uppercase Label</span>
+                    <span class="text-tracking-wider">Wide Tracking</span>
+                </div>
+            </section>
+
+            <!-- ============ SECTION 3: DBOT LOGO ============ -->
+            <section class="content-section">
+                <h2 class="section-header">
+                    <i class="ph ph-hash"></i>
+                    03. DBOT Logo
+                </h2>
+                
+                <h3 class="subsection-title">Animated Text Logo (Neural OS Style)</h3>
+                <div class="text-center" style="padding: 40px 0;">
+                    <div class="text-logo">
+                        <span class="logo-text">D</span><span class="logo-text">B</span><span class="logo-text">O</span><span class="logo-text">T</span>
+                    </div>
+                    <p class="mono" style="color: var(--text-muted); margin-top: 16px; font-size: 0.85rem;">
+                        Use for hero sections and landing pages
+                    </p>
+                </div>
+
+                <h3 class="subsection-title">Logo Variations</h3>
+                <div style="display: flex; gap: 32px; flex-wrap: wrap; justify-content: center; padding: 24px; background: var(--bg-tertiary); border-radius: 12px;">
+                    <div>
+                        <div style="font-family: var(--font-mono); font-size: 1.5rem; font-weight: 700; color: var(--purple); text-shadow: 0 0 20px var(--purple-glow);">DBOT</div>
+                        <code style="font-size: 0.7rem; color: var(--text-muted);">Default glow</code>
+                    </div>
+                    <div>
+                        <div style="font-family: var(--font-mono); font-size: 1.5rem; font-weight: 700; background: linear-gradient(135deg, var(--purple), var(--cyan)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">DBOT</div>
+                        <code style="font-size: 0.7rem; color: var(--text-muted);">Gradient</code>
+                    </div>
+                    <div>
+                        <div class="nav-logo" style="width: 32px; height: 32px; font-size: 1rem;">D</div>
+                        <code style="font-size: 0.7rem; color: var(--text-muted);">Icon</code>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ============ SECTION 4: BUTTONS ============ -->
+            <section class="content-section">
+                <h2 class="section-header">
+                    <i class="ph ph-cursor-click"></i>
+                    04. Buttons
+                </h2>
+                
+                <h3 class="subsection-title">Primary CTA Buttons</h3>
+                <div class="button-group">
+                    <button class="btn btn-primary">Default</button>
+                    <button class="btn btn-primary" disabled>Disabled</button>
+                    <button class="btn btn-primary loading">
+                        <span class="spinner"></span> Loading
+                    </button>
+                </div>
+
+                <h3 class="subsection-title">Secondary Buttons</h3>
+                <div class="button-group">
+                    <button class="btn btn-secondary">Secondary Action</button>
+                    <button class="btn btn-secondary" disabled>Disabled</button>
+                    <button class="btn btn-secondary">
+                        <i class="ph ph-chart-line"></i> With Icon
+                    </button>
+                </div>
+
+                <h3 class="subsection-title">Outline Buttons</h3>
+                <div class="button-group">
+                    <button class="btn btn-outline">Outline Default</button>
+                    <button class="btn btn-outline-purple">Outline Purple</button>
+                    <button class="btn btn-outline-cyan">Outline Cyan</button>
+                </div>
+
+                <h3 class="subsection-title">Ghost Buttons</h3>
+                <div class="button-group">
+                    <button class="btn btn-ghost">
+                        <i class="ph ph-arrow-left"></i> Back
+                    </button>
+                    <button class="btn btn-ghost" aria-label="Next page">Next <i class="ph ph-arrow-right" aria-hidden="true"></i></button>
+                    <button class="btn btn-ghost">
+                        <i class="ph ph-share"></i> Share
+                    </button>
+                </div>
+
+                <h3 class="subsection-title">Danger/Error Buttons</h3>
+                <div class="button-group">
+                    <button class="btn btn-danger">
+                        <i class="ph ph-trash"></i> Delete
+                    </button>
+                    <button class="btn btn-danger-outline">Cancel Operation</button>
+                </div>
+
+                <h3 class="subsection-title">Icon Buttons</h3>
+                <div class="button-group">
+                    <button class="btn-icon" aria-label="Add new item"><i class="ph ph-plus" aria-hidden="true"></i></button>
+                    <button class="btn-icon success" aria-label="Confirm"><i class="ph ph-check" aria-hidden="true"></i></button>
+                    <button class="btn-icon danger" aria-label="Delete"><i class="ph ph-x" aria-hidden="true"></i></button>
+                    <button class="btn-icon secondary" aria-label="Settings"><i class="ph ph-gear" aria-hidden="true"></i></button>
+                    <button class="btn-icon ghost" aria-label="Information"><i class="ph ph-info" aria-hidden="true"></i></button>
+                </div>
+
+                <h3 class="subsection-title">Button Sizes</h3>
+                <div class="button-group aligned">
+                    <button class="btn btn-primary btn-sm">Small</button>
+                    <button class="btn btn-primary">Medium</button>
+                    <button class="btn btn-primary btn-lg">Large</button>
+                    <button class="btn btn-primary btn-xl">Extra Large</button>
+                </div>
+
+                <h3 class="subsection-title">Button Variants</h3>
+                <div class="button-group">
+                    <button class="btn btn-gradient">Gradient</button>
+                    <button class="btn btn-gradient-cyan">Cyan Gradient</button>
+                    <button class="btn btn-success">Success</button>
+                    <button class="btn btn-warning">Warning</button>
+                </div>
+            </section>
+
+            <!-- ============ SECTION 5: CARDS ============ -->
+            <section class="content-section">
+                <h2 class="section-header">
+                    <i class="ph ph-squares-four"></i>
+                    05. Cards
+                </h2>
+                
+                <h3 class="subsection-title">Glass Card (Default)</h3>
+                <div class="card-grid">
+                    <div class="glass-card">
+                        <h4 class="card-title">Card Title</h4>
+                        <p class="card-body">Glass card with subtle border and hover glow effect. Use for content containers, feature highlights.</p>
+                        <button class="btn btn-sm btn-primary">Action</button>
+                    </div>
+                    <div class="glass-card hover-lift">
+                        <h4 class="card-title">Hover Lift</h4>
+                        <p class="card-body">Card that lifts on hover. Great for interactive elements.</p>
+                        <button class="btn btn-sm btn-secondary">Learn More</button>
+                    </div>
+                </div>
+
+                <h3 class="subsection-title">Stat Cards</h3>
+                <div class="stat-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon purple"><i class="ph ph-vote"></i></div>
+                        <div class="stat-content">
+                            <span class="stat-label">Total Proposals</span>
+                            <span class="stat-value">47</span>
+                            <span class="stat-change positive">+12%</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon green"><i class="ph ph-users"></i></div>
+                        <div class="stat-content">
+                            <span class="stat-label">Active Voters</span>
+                            <span class="stat-value">4,892</span>
+                            <span class="stat-change positive">+234</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon cyan"><i class="ph ph-clock"></i></div>
+                        <div class="stat-content">
+                            <span class="stat-label">Pending Actions</span>
+                            <span class="stat-value">3</span>
+                            <span class="stat-change negative">-2</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon gold"><i class="ph ph-coins"></i></div>
+                        <div class="stat-content">
+                            <span class="stat-label">Treasury</span>
+                            <span class="stat-value">$2.5M</span>
+                            <span class="stat-change positive">+15%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="subsection-title">Proposal Cards</h3>
+                <div class="proposal-card">
+                    <div class="proposal-header">
+                        <span class="proposal-id">DIP-001</span>
+                        <span class="badge badge-success">Passed</span>
+                    </div>
+                    <h4 class="proposal-title">DIP-001: Increase Staking Rewards</h4>
+                    <p class="proposal-desc">Proposal to increase staking rewards from 12% to 15% APY for all stakers.</p>
+                    <div class="proposal-meta">
+                        <span><i class="ph ph-users"></i> 1,247 voters</span>
+                        <span><i class="ph ph-clock"></i> 2 days left</span>
+                        <span><i class="ph ph-chart-line"></i> 75% quorum</span>
+                    </div>
+                    <div class="proposal-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill green" style="width: 75%"></div>
+                        </div>
+                        <div class="progress-labels">
+                            <span class="text-green">75% For</span>
+                            <span class="text-red">22% Against</span>
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="subsection-title">Feature Cards (Homepage Style)</h3>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <div class="feature-number">01</div>
+                        <div class="feature-title">Community Owned</div>
+                        <div class="feature-description">The first community-owned AI agent on Dogechain. True decentralization.</div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-number">02</div>
+                        <div class="feature-title">Autonomous</div>
+                        <div class="feature-description">Self-governing protocols that evolve with community input.</div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-number">03</div>
+                        <div class="feature-title">Transparent</div>
+                        <div class="feature-description">All operations visible on-chain. Full auditability.</div>
+                    </div>
+                </div>
+
+                <h3 class="subsection-title">Member/Council Cards</h3>
+                <div class="member-card">
+                    <div class="member-avatar purple">JD</div>
+                    <div class="member-info">
+                        <span class="member-name">Jane Dao</span>
+                        <span class="member-role">Council Member</span>
+                    </div>
+                    <div class="member-stats">
+                        <span>1,234 <small>proposals</small></span>
+                        <span>89% <small>approval</small></span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ============ SECTION 6: BADGES & TAGS ============ -->
+            <section class="content-section">
+                <h2 class="section-header">
+                    <i class="ph ph-tag"></i>
+                    06. Badges, Tags & Chips
+                </h2>
+                
+                <h3 class="subsection-title">Status Badges</h3>
+                <div class="badge-group">
+                    <span class="badge badge-success">Active</span>
+                    <span class="badge badge-warning">Pending</span>
+                    <span class="badge badge-info">Passed</span>
+                    <span class="badge badge-error">Defeated</span>
+                    <span class="badge badge-purple">Governance</span>
+                    <span class="badge badge-cyan">Technical</span>
+                </div>
+
+                <h3 class="subsection-title">Token & Coming Soon Badges (Homepage Style)</h3>
+                <div class="badge-group" style="flex-direction: column; align-items: flex-start; gap: 16px;">
+                    <div>
+                        <span class="token-badge">
+                            <span class="badge-dot"></span>
+                            Token Coming Soon
+                        </span>
+                        <code class="mono" style="font-size: 0.7rem; color: var(--text-muted); margin-left: 12px;">.token-badge</code>
+                    </div>
+                    <div>
+                        <span class="chain-badge">
+                            <i class="ph ph-seal"></i>
+                            Dogechain Network
+                        </span>
+                        <code class="mono" style="font-size: 0.7rem; color: var(--text-muted); margin-left: 12px;">.chain-badge</code>
+                    </div>
+                    <div>
+                        <span class="warning-badge">
+                            <i class="ph ph-warning"></i>
+                            Please DYOR Before Investing
+                        </span>
+                        <code class="mono" style="font-size: 0.7rem; color: var(--text-muted); margin-left: 12px;">.warning-badge</code>
+                    </div>
+                </div>
+
+                <h3 class="subsection-title">Version Badge</h3>
+                <div class="badge-group">
+                    <span class="version-badge">
+                        <i class="ph ph-sparkle"></i>
+                        v2.1 • 2026-03-26 • Neural OS Edition
+                    </span>
+                </div>
+
+                <h3 class="subsection-title">Network Badges</h3>
+                <div class="badge-group">
+                    <span class="network-badge online">
+                        <span class="pulse"></span> Dogechain Online
+                    </span>
+                    <span class="network-badge offline">
+                        <span class="pulse"></span> Testnet
+                    </span>
+                </div>
+
+                <h3 class="subsection-title">Hash Tags</h3>
+                <div class="tag-group">
+                    <span class="tag">#governance</span>
+                    <span class="tag">#staking</span>
+                    <span class="tag">#dao</span>
+                    <span class="tag tag-lg">#dogechain</span>
+                </div>
+
+                <h3 class="subsection-title">Chips/Pills</h3>
+                <div class="chip-group">
+                    <span class="chip">
+                        <span class="chip-avatar">D</span>
+                        Dogechain
+                    </span>
+                    <span class="chip">
+                        <span class="chip-icon D">D</span>
+                        DC Token
+                    </span>
+                </div>
+
+                <h3 class="subsection-title">Counters</h3>
+                <div class="counter-group">
+                    <span class="counter">1,234</span>
+                    <span class="counter-counter">/ 5,000 DC</span>
+                </div>
+            </section>
+
+            <!-- ============ SECTION 7: INPUTS ============ -->
+            <section class="content-section">
+                <h2 class="section-header">
+                    <i class="ph ph-text-input"></i>
+                    07. Form Inputs
+                </h2>
+                
+                <h3 class="subsection-title">Text Inputs</h3>
+                <div class="input-stack">
+                    <div class="input-group">
+                        <label class="input-label" for="wallet-address">Wallet Address</label>
+                        <input type="text" id="wallet-address" class="input" placeholder="0x742d35Cc6634C0532...">
+                    </div>
+                    <div class="input-group">
+                        <label class="input-label" for="amount">Amount</label>
+                        <div class="input-wrapper">
+                            <input type="number" id="amount" class="input" placeholder="0.0">
+                            <span class="input-suffix">DC</span>
+                        </div>
+                    </div>
+                    <div class="input-group error">
+                        <label class="input-label" for="email-error">Email (with error)</label>
+                        <input type="email" id="email-error" class="input" value="invalid-email">
+                        <span class="input-error">Please enter a valid email address</span>
+                    </div>
+                </div>
+
+                <h3 class="subsection-title">Textarea</h3>
+                <div class="input-group">
+                    <label class="input-label" for="proposal-desc">Proposal Description</label>
+                    <textarea id="proposal-desc" class="input textarea" rows="4" placeholder="Describe your proposal..."></textarea>
+                </div>
+
+                <h3 class="subsection-title">Search Input</h3>
+                <div class="search-wrapper">
+                    <label for="search-input" class="search-icon"><i class="ph ph-magnifying-glass"></i></label>
+                    <input type="search" id="search-input" class="search-input" placeholder="Search proposals, members, tokens...">
+                </div>
+
+                <h3 class="subsection-title">Select/Dropdown</h3>
+                <div class="select-wrapper">
+                    <select id="select-dropdown" class="select" aria-label="Select option">
+                        <option>Select an option</option>
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                    </select>
+                    <i class="ph ph-caret-down select-arrow"></i>
+                </div>
+
+                <h3 class="subsection-title">Toggles & Checkboxes</h3>
+                <div class="toggle-group">
+                    <label class="toggle" for="toggle-checkbox">
+                        <input type="checkbox" id="toggle-checkbox" aria-label="Toggle notifications" checked>
+                        <span class="toggle-slider"></span>
+                    </label>
+                    <span class="toggle-label">Enable notifications</span>
+                </div>
+                <div class="checkbox-group">
+                    <label class="checkbox">
+                        <input type="checkbox" id="toggle-checkbox" aria-label="Toggle notifications" checked>
+                        <span class="checkbox-mark"></span>
+                        <span class="checkbox-label">I agree to terms</span>
+                    </label>
+                </div>
+            </section>
+
+            <!-- ============ SECTION 8: NAVIGATION ============ -->
+            <section class="content-section">
+                <h2 class="section-header">
+                    <i class="ph ph-list"></i>
+                    08. Navigation
+                </h2>
+                
+                <h3 class="subsection-title">Nav Bar</h3>
+                <nav class="navbar">
+                    <div class="nav-brand">
+                        <div class="nav-logo">D</div>
+                        <span>DBOT</span>
+                    </div>
+                    <div class="nav-links">
+                        <a href="#" class="nav-link active">
+                            <i class="ph ph-house"></i> Dashboard
+                        </a>
+                        <a href="#" class="nav-link">
+                            <i class="ph ph-vote"></i> Proposals
+                        </a>
+                        <a href="#" class="nav-link">
+                            <i class="ph ph-coins"></i> Staking
+                        </a>
+                        <a href="#" class="nav-link">
+                            <i class="ph ph-bank"></i> Treasury
+                        </a>
+                    </div>
+                    <div class="nav-actions">
+                        <button class="btn btn-primary btn-sm">Connect</button>
+                    </div>
+                </nav>
+
+                <h3 class="subsection-title">Breadcrumbs</h3>
+                <nav class="breadcrumbs">
+                    <a href="#">Home</a>
+                    <i class="ph ph-caret-right"></i>
+                    <a href="#">Proposals</a>
+                    <i class="ph ph-caret-right"></i>
+                    <span>DIP-001</span>
+                </nav>
+
+                <h3 class="subsection-title">Tabs</h3>
+                <div class="tabs">
+                    <button class="tab active">Active</button>
+                    <button class="tab">Pending</button>
+                    <button class="tab">Passed</button>
+                    <button class="tab">All Proposals</button>
+                </div>
+
+                <h3 class="subsection-title">Sidebar Nav</h3>
+                <div class="sidebar">
+                    <a href="#" class="sidebar-item active">
+                        <i class="ph ph-house"></i>
+                        <span>Dashboard</span>
+                    </a>
+                    <a href="#" class="sidebar-item">
+                        <i class="ph ph-chart-line"></i>
+                        <span>Analytics</span>
+                    </a>
+                    <a href="#" class="sidebar-item">
+                        <i class="ph ph-gear"></i>
+                        <span>Settings</span>
+                    </a>
+                </div>
+            </section>
+
+            <!-- ============ SECTION 9: PROGRESS ============ -->
+            <section class="content-section">
+                <h2 class="section-header">
+                    <i class="ph ph-chart-bar"></i>
+                    09. Progress & Loading
+                </h2>
+                
+                <h3 class="subsection-title">Progress Bars</h3>
+                <div class="progress-section">
+                    <div class="progress-header">
+                        <span class="progress-label">Voting Progress</span>
+                        <span class="progress-percent">75%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill green" style="width: 75%"></div>
+                    </div>
+                    <div class="progress-footer">
+                        <span class="text-muted">Quorum: 65% ✓</span>
+                    </div>
+                </div>
+
+                <h3 class="subsection-title">Stacked Progress (For/Against)</h3>
+                <div class="progress-section stacked">
+                    <div class="progress-bar stacked">
+                        <div class="progress-fill green" style="width: 70%"></div>
+                        <div class="progress-fill red" style="width: 20%"></div>
+                    </div>
+                    <div class="progress-legend">
+                        <span class="legend-item green">70% For</span>
+                        <span class="legend-item red">20% Against</span>
+                        <span class="legend-item muted">10% Abstain</span>
+                    </div>
+                </div>
+
+                <h3 class="subsection-title">Loading Spinner</h3>
+                <div class="loading-group">
+                    <div class="spinner"></div>
+                    <span>Loading...</span>
+                </div>
+
+                <h3 class="subsection-title">Skeleton Loader</h3>
+                <div class="skeleton-card">
+                    <div class="skeleton-line w-full"></div>
+                    <div class="skeleton-line w-3/4"></div>
+                    <div class="skeleton-line w-1/2"></div>
+                </div>
+            </section>
+
+            <!-- ============ SECTION 10: TABLES ============ -->
+            <section class="content-section">
+                <h2 class="section-header">
+                    <i class="ph ph-table"></i>
+                    10. Tables
+                </h2>
+                
+                <h3 class="subsection-title">Data Table</h3>
+                <div class="table-wrapper">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Proposal</th>
+                                <th>Status</th>
+                                <th>Votes</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>DIP-001: Increase Rewards</td>
+                                <td><span class="badge badge-success btn-sm">Passed</span></td>
+                                <td class="text-green">1.2M DC</td>
+                                <td><button class="btn btn-sm btn-outline">View</button></td>
+                            </tr>
+                            <tr>
+                                <td>DIP-002: Treasury Diversify</td>
+                                <td><span class="badge badge-warning btn-sm">Pending</span></td>
+                                <td class="text-muted">--</td>
+                                <td><button class="btn btn-sm btn-outline" disabled>Vote</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- ============ SECTION 11: MODALS ============ -->
+            <section class="content-section">
+                <h2 class="section-header">
+                    <i class="ph ph-windows"></i>
+                    11. Modals & Dialogs
+                </h2>
+                
+                <h3 class="subsection-title">Modal Card</h3>
+                <div class="modal">
+                    <div class="modal-header">
+                        <h3 class="modal-title">Confirm Transaction</h3>
+                        <button class="btn-icon-ghost" aria-label="Close"><i class="ph ph-x" aria-hidden="true"></i></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Are you sure you want to stake 1,000 DC for 90 days?</p>
+                        <div class="modal-details">
+                            <div class="detail-row">
+                                <span>Amount</span>
+                                <span class="mono">1,000 DC</span>
+                            </div>
+                            <div class="detail-row">
+                                <span>Lock Period</span>
+                                <span class="mono">90 days</span>
+                            </div>
+                            <div class="detail-row highlight">
+                                <span>APY</span>
+                                <span class="text-green">10%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-secondary">Cancel</button>
+                        <button class="btn btn-primary">Confirm Stake</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ============ SECTION 12: ALERTS ============ -->
+            <section class="content-section">
+                <h2 class="section-header">
+                    <i class="ph ph-bell"></i>
+                    12. Alerts & Toasts
+                </h2>
+                
+                <div class="alert alert-success">
+                    <i class="ph ph-check-circle"></i>
+                    <span>Proposal created successfully! Your vote has been recorded.</span>
+                </div>
+                <div class="alert alert-error">
+                    <i class="ph ph-x-circle"></i>
+                    <span>Transaction failed. Please try again or contact support.</span>
+                </div>
+                <div class="alert alert-warning">
+                    <i class="ph ph-warning"></i>
+                    <span>You don't have enough voting power for this action.</span>
+                </div>
+                <div class="alert alert-info">
+                    <i class="ph ph-info"></i>
+                    <span>Voting period ends in 2 days. Make your voice heard!</span>
+                </div>
+            </section>
+
+            <!-- ============ SECTION 13: GLOBAL EFFECTS (NEW) ============ -->
+            <section class="content-section">
+                <h2 class="section-header">
+                    <i class="ph ph-eye"></i>
+                    13. Global Effects - Neural OS Style
+                </h2>
+                
+                <h3 class="subsection-title">Scanlines Overlay</h3>
+                <p style="color: var(--text-muted); margin-bottom: 16px;">
+                    CRT scanline effect. Add <code class="mono">.scanlines</code> div to body for retro terminal look.
+                </p>
+                <div style="position: relative; padding: 24px; background: var(--bg-tertiary); border-radius: 8px; overflow: hidden;">
+                    <div class="scanlines" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></div>
+                    <p class="mono" style="color: var(--text-primary); position: relative; z-index: 1;">
+                        > SCANLINES_ACTIVE: TRUE<br>
+                        > RETRO_MODE: ENABLED
+                    </p>
+                </div>
+
+                <h3 class="subsection-title">Background Mesh Gradient</h3>
+                <p style="color: var(--text-muted); margin-bottom: 16px;">
+                    Subtle radial gradients creating depth. Add <code class="mono">.bg-mesh</code> div behind content.
+                </p>
+                <div style="padding: 40px; background: var(--bg-secondary); border-radius: 12px; text-align: center;">
+                    <p style="color: var(--text-muted);">Background mesh creates ambient purple/cyan glow areas</p>
+                </div>
+
+                <h3 class="subsection-title">Matrix Rain</h3>
+                <p style="color: var(--text-muted); margin-bottom: 16px;">
+                    Animated falling characters. Add <code class="mono">.matrix-rain</code> with <code class="mono">.matrix-column</code> children.
+                </p>
+                <div style="position: relative; height: 120px; background: var(--bg-tertiary); border-radius: 8px; overflow: hidden;">
+                    <div class="matrix-rain active" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0.3;">
+                        <div class="matrix-column" style="left: 10%; animation-duration: 8s; animation-delay: 0s; color: var(--purple);">DB0T</div>
+                        <div class="matrix-column" style="left: 30%; animation-duration: 6s; animation-delay: 1s; color: var(--cyan);">NET</div>
+                        <div class="matrix-column" style="left: 50%; animation-duration: 7s; animation-delay: 0.5s; color: var(--purple);">W0RKS</div>
+                        <div class="matrix-column" style="left: 70%; animation-duration: 9s; animation-delay: 2s; color: var(--cyan);">G0V</div>
+                    </div>
+                    <p class="mono" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: var(--text-primary); z-index: 1;">
+                        MATRIX_RAIN_ACTIVE
+                    </p>
+                </div>
+            </section>
+
+            <!-- ============ SECTION 14: GLITCH EFFECTS (NEW) ============ -->
+            <section class="content-section">
+                <h2 class="section-header">
+                    <i class="ph ph-lightning"></i>
+                    14. Glitch Text Effects
+                </h2>
+                
+                <h3 class="subsection-title">Glitch Animation (Hover Trigger)</h3>
+                <p style="color: var(--text-muted); margin-bottom: 16px;">
+                    Use <code class="mono">data-text</code> attribute matching the element text.
+                </p>
+                <div style="display: flex; gap: 32px; flex-wrap: wrap; padding: 32px; background: var(--bg-tertiary); border-radius: 12px;">
+                    <div style="text-align: center;">
+                        <span class="glitch" data-text="DBOT" style="font-family: var(--font-mono); font-size: 2rem; font-weight: 700; color: var(--text-primary); cursor: pointer;">
+                            DBOT
+                        </span>
+                        <code class="mono" style="font-size: 0.7rem; color: var(--text-muted); display: block; margin-top: 8px;">Hover me</code>
+                    </div>
+                    <div style="text-align: center;">
+                        <span class="glitch" data-text="VOTE" style="font-family: var(--font-mono); font-size: 2rem; font-weight: 700; color: var(--purple); cursor: pointer;">
+                            VOTE
+                        </span>
+                        <code class="mono" style="font-size: 0.7rem; color: var(--text-muted); display: block; margin-top: 8px;">Hover me</code>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ============ SECTION 15: STATUS BAR (NEW) ============ -->
+            <section class="content-section">
+                <h2 class="section-header">
+                    <i class="ph ph-barricade"></i>
+                    15. Status Bar Component
+                </h2>
+                
+                <h3 class="subsection-title">Footer Status Bar (Homepage Style)</h3>
+                <div style="background: var(--bg-secondary); border-radius: 12px; overflow: hidden; border: 1px solid var(--text-dim);">
+                    <div class="status-bar" style="position: static; border-radius: 0;">
+                        <div class="status-bar-left">
+                            <div class="status-item">
+                                <div class="status-dot-small pulse" style="color: var(--green);"></div>
+                                <span>SECURE</span>
+                            </div>
+                            <div class="status-item">
+                                <div class="status-dot-small pulse" style="color: var(--green);"></div>
+                                <span>CONNECTED</span>
+                            </div>
+                        </div>
+                        <div class="status-bar-right">
+                            <div class="status-item">
+                                <div class="status-dot-small pulse" style="color: var(--purple);"></div>
+                                <span>NEURAL_NET: ACTIVE</span>
+                            </div>
+                            <div class="status-item">
+                                <div class="status-dot-small pulse" style="color: var(--cyan);"></div>
+                                <span>BLOCKCHAIN: DOGECHAIN</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <code class="mono" style="font-size: 0.7rem; color: var(--text-muted); margin-top: 8px; display: block;">.status-bar component</code>
+            </section>
+
+            <!-- ============ SECTION 16: SOCIAL LINKS (NEW) ============ -->
+            <section class="content-section">
+                <h2 class="section-header">
+                    <i class="ph ph-share-network"></i>
+                    16. Social Links
+                </h2>
+                
+                <h3 class="subsection-title">Social Link Buttons</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link" title="X / Twitter">
+                        <i class="ph ph-x-logo"></i>
+                    </a>
+                    <a href="#" class="social-link" title="Discord">
+                        <i class="ph ph-discord-logo"></i>
+                    </a>
+                    <a href="#" class="social-link" title="Telegram">
+                        <i class="ph ph-telegram-logo"></i>
+                    </a>
+                    <a href="#" class="social-link" title="GitHub">
+                        <i class="ph ph-github-logo"></i>
+                    </a>
+                </div>
+                <code class="mono" style="font-size: 0.7rem; color: var(--text-muted); margin-top: 12px; display: block;">.social-links .social-link</code>
+            </section>
+
+            <!-- ============ SECTION 17: DATA VISUALIZATION (NEW) ============ -->
+            <section class="content-section">
+                <h2 class="section-header">
+                    <i class="ph ph-chart-line-up"></i>
+                    17. Data Visualization
+                </h2>
+                
+                <h3 class="subsection-title">Chart Color Palette</h3>
+                <div class="chart-colors">
+                    <div class="chart-color">
+                        <div class="chart-color-swatch purple"></div>
+                        <span class="mono" style="font-size: 0.8rem;">Purple (primary)</span>
+                    </div>
+                    <div class="chart-color">
+                        <div class="chart-color-swatch cyan"></div>
+                        <span class="mono" style="font-size: 0.8rem;">Cyan (secondary)</span>
+                    </div>
+                    <div class="chart-color">
+                        <div class="chart-color-swatch green"></div>
+                        <span class="mono" style="font-size: 0.8rem;">Green (positive)</span>
+                    </div>
+                    <div class="chart-color">
+                        <div class="chart-color-swatch red"></div>
+                        <span class="mono" style="font-size: 0.8rem;">Red (negative)</span>
+                    </div>
+                    <div class="chart-color">
+                        <div class="chart-color-swatch amber"></div>
+                        <span class="mono" style="font-size: 0.8rem;">Amber (warning)</span>
+                    </div>
+                    <div class="chart-color">
+                        <div class="chart-color-swatch gold"></div>
+                        <span class="mono" style="font-size: 0.8rem;">Gold (premium)</span>
+                    </div>
+                </div>
+
+                <h3 class="subsection-title">Bar Chart</h3>
+                <div class="line-chart">
+                    <div class="line-chart-title">Weekly Active Voters</div>
+                    <div class="line-chart-grid">
+                        <div class="bar-tooltip" id="barTooltip"></div>
+                        <div class="chart-bar" data-week="Week 1" data-voters="1,247" data-percent="45%" style="height: 45%;"></div>
+                        <div class="chart-bar" data-week="Week 2" data-voters="1,823" data-percent="65%" style="height: 65%;"></div>
+                        <div class="chart-bar" data-week="Week 3" data-voters="1,512" data-percent="55%" style="height: 55%;"></div>
+                        <div class="chart-bar" data-week="Week 4" data-voters="2,234" data-percent="80%" style="height: 80%;"></div>
+                        <div class="chart-bar" data-week="Week 5" data-voters="1,956" data-percent="70%" style="height: 70%;"></div>
+                        <div class="chart-bar" data-week="Week 6" data-voters="2,512" data-percent="90%" style="height: 90%;"></div>
+                        <div class="chart-bar" data-week="Week 7" data-voters="2,089" data-percent="75%" style="height: 75%;"></div>
+                    </div>
+                </div>
+
+                <h3 class="subsection-title">Donut Chart (Tokenomics Style)</h3>
+                <div style="display: flex; gap: 32px; align-items: flex-start; flex-wrap: wrap;">
+                    <div class="chart-container">
+                        <svg class="donut-chart" viewBox="0 0 100 100">
+                            <circle class="donut-segment" cx="50" cy="50" r="35" stroke="#8B5CF6" stroke-dasharray="88 220" data-name="Community Treasury" data-amount="400M DC" data-percent="40%"/>
+                            <circle class="donut-segment" cx="50" cy="50" r="35" stroke="#06b6d4" stroke-dasharray="44 220" stroke-dashoffset="-88" data-name="Initial Liquidity" data-amount="200M DC" data-percent="20%"/>
+                            <circle class="donut-segment" cx="50" cy="50" r="35" stroke="#22c55e" stroke-dasharray="33 220" stroke-dashoffset="-132" data-name="Development Fund" data-amount="150M DC" data-percent="15%"/>
+                            <circle class="donut-segment" cx="50" cy="50" r="35" stroke="#BA9F33" stroke-dasharray="22 220" stroke-dashoffset="-165" data-name="Marketing" data-amount="100M DC" data-percent="10%"/>
+                            <circle class="donut-segment" cx="50" cy="50" r="35" stroke="#A78BFA" stroke-dasharray="22 220" stroke-dashoffset="-187" data-name="DAO Rewards" data-amount="100M DC" data-percent="10%"/>
+                            <circle class="donut-segment" cx="50" cy="50" r="35" stroke="#64748b" stroke-dasharray="11 220" stroke-dashoffset="-209" data-name="Airdrop" data-amount="50M DC" data-percent="5%"/>
+                        </svg>
+                        <div class="chart-center">
+                            <div class="chart-label">TOTAL</div>
+                            <div class="chart-value">1B</div>
+                        </div>
+                        <div class="chart-tooltip" id="chartTooltip">
+                            <div class="tooltip-name"></div>
+                            <div class="tooltip-amount"></div>
+                            <div class="tooltip-percent"></div>
+                        </div>
+                    </div>
+                    <div class="chart-legend">
+                        <div class="legend-item" data-segment="0">
+                            <div class="legend-color" style="background: #8B5CF6;"></div>
+                            <span class="legend-name">Community Treasury</span>
+                            <span class="legend-percent">40%</span>
+                        </div>
+                        <div class="legend-item" data-segment="1">
+                            <div class="legend-color" style="background: #06b6d4;"></div>
+                            <span class="legend-name">Initial Liquidity</span>
+                            <span class="legend-percent">20%</span>
+                        </div>
+                        <div class="legend-item" data-segment="2">
+                            <div class="legend-color" style="background: #22c55e;"></div>
+                            <span class="legend-name">Development Fund</span>
+                            <span class="legend-percent">15%</span>
+                        </div>
+                        <div class="legend-item" data-segment="3">
+                            <div class="legend-color" style="background: #BA9F33;"></div>
+                            <span class="legend-name">Marketing</span>
+                            <span class="legend-percent">10%</span>
+                        </div>
+                        <div class="legend-item" data-segment="4">
+                            <div class="legend-color" style="background: #A78BFA;"></div>
+                            <span class="legend-name">DAO Rewards</span>
+                            <span class="legend-percent">10%</span>
+                        </div>
+                        <div class="legend-item" data-segment="5">
+                            <div class="legend-color" style="background: #64748b;"></div>
+                            <span class="legend-name">Airdrop</span>
+                            <span class="legend-percent">5%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="subsection-title" style="margin-top: 32px;">Bar Chart</h3>
+                <div class="bar-chart">
+                    <div class="bar-item">
+                        <div class="bar-label">Community</div>
+                        <div class="bar-track">
+                            <div class="bar-fill purple" style="width: 40%;"></div>
+                        </div>
+                        <div class="bar-value">40%</div>
+                    </div>
+                    <div class="bar-item">
+                        <div class="bar-label">Liquidity</div>
+                        <div class="bar-track">
+                            <div class="bar-fill cyan" style="width: 20%;"></div>
+                        </div>
+                        <div class="bar-value">20%</div>
+                    </div>
+                    <div class="bar-item">
+                        <div class="bar-label">Development</div>
+                        <div class="bar-track">
+                            <div class="bar-fill green" style="width: 15%;"></div>
+                        </div>
+                        <div class="bar-value">15%</div>
+                    </div>
+                    <div class="bar-item">
+                        <div class="bar-label">Marketing</div>
+                        <div class="bar-track">
+                            <div class="bar-fill gold" style="width: 10%;"></div>
+                        </div>
+                        <div class="bar-value">10%</div>
+                    </div>
+                    <div class="bar-item">
+                        <div class="bar-label">DAO Rewards</div>
+                        <div class="bar-track">
+                            <div class="bar-fill purple-light" style="width: 10%;"></div>
+                        </div>
+                        <div class="bar-value">10%</div>
+                    </div>
+                    <div class="bar-item">
+                        <div class="bar-label">Airdrop</div>
+                        <div class="bar-track">
+                            <div class="bar-fill gray" style="width: 5%;"></div>
+                        </div>
+                        <div class="bar-value">5%</div>
+                    </div>
+                </div>
+            <!-- ============ SECTION 18: MANIFESTO BOX (NEW) ============ -->
+            <section class="content-section">
+                <h2 class="section-header">
+                    <i class="ph ph-file-text"></i>
+                    18. Manifesto / Content Box
+                </h2>
+                
+                <h3 class="subsection-title">Manifesto Box (Homepage Style)</h3>
+                <div class="manifesto-box">
+                    <div class="manifesto-header">
+                        WHAT_IS_DBOT.TXT
+                    </div>
+                    <div class="manifesto-body">
+                        <p><strong>DBOT</strong> is the first community-owned AI agent built on Dogechain. We believe in decentralized intelligence that serves the community, not corporations.</p>
+                        <p style="margin-top: 16px; color: var(--text-muted);">Through transparent governance and autonomous protocols, DBOT evolves with the people who build it.</p>
+                    </div>
+                </div>
+                <code class="mono" style="font-size: 0.7rem; color: var(--text-muted); margin-top: 8px; display: block;">.manifesto-box</code>
+            </section>
+
+            <!-- ============ SECTION 19: CTA SECTIONS (NEW) ============ -->
+            <section class="content-section">
+                <h2 class="section-header">
+                    <i class="ph ph-cursor"></i>
+                    19. CTA Sections
+                </h2>
+                
+                <h3 class="subsection-title">Hero CTA</h3>
+                <div class="cta-section">
+                    <h3 class="cta-title">
+                        SHAPE_DBOT<span class="highlight">.EXE</span>
+                    </h3>
+                    <p class="cta-subtitle">Decide who DBOT becomes. Vote on personality, logo, and first mission.</p>
+                    <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+                        <button class="cta-btn">
+                            <i class="ph ph-vote"></i> JOIN THE VOTE
+                        </button>
+                        <button class="btn btn-outline">
+                            LEARN MORE
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ============ SECTION 20: SPECIAL EFFECTS ============ -->
+            <section class="content-section">
+                <h2 class="section-header">
+                    <i class="ph ph-sparkle"></i>
+                    20. Special Effects
+                </h2>
+                
+                <h3 class="subsection-title">Glow Effects</h3>
+                <div class="glow-showcase">
+                    <div class="glow-box purple"></div>
+                    <div class="glow-box cyan"></div>
+                    <div class="glow-box green"></div>
+                    <div class="glow-box gold"></div>
+                </div>
+
+                <h3 class="subsection-title">Gradient Text Options</h3>
+                <div class="gradient-showcase">
+                    <span class="gradient-purple-cyan">Purple to Cyan Gradient</span>
+                    <span class="gradient-gold">Gold Premium</span>
+                    <span class="gradient-fire">Fire Effect</span>
+                </div>
+
+                <h3 class="subsection-title">Animations</h3>
+                <div class="animation-showcase">
+                    <div class="pulse-demo">
+                        <div class="pulse-ring"></div>
+                        <div class="pulse-dot-small"></div>
+                    </div>
+                    <span class="spin-demo"><i class="ph ph-circle-notch"></i></span>
+                    <span class="bounce-demo">Bounce</span>
+                </div>
+            </section>
+
+            <!-- ============ SECTION 21: FOOTER ============ -->
+            <section class="content-section">
+                <h2 class="section-header">
+                    <i class="ph ph-rows"></i>
+                    21. Footer
+                </h2>
+                
+                <footer class="footer">
+                    <div class="footer-brand">
+                        <div class="footer-logo">D</div>
+                        <div class="footer-text">
+                            <span class="footer-name">DBOT</span>
+                            <span class="footer-tagline">Decentralized Governance</span>
+                        </div>
+                    </div>
+                    <div class="footer-links">
+                        <a href="#">Documentation</a>
+                        <a href="#">GitHub</a>
+                        <a href="#">Discord</a>
+                    </div>
+                    <div class="footer-copy">
+                        © 2026 DBOT. All rights reserved.
+                    </div>
+                </footer>
+            </section>
+
+            <footer class="terminal-footer">
+                <p>DBOT Design System v2.1 • 2026-03-26 • Neural OS Edition • Source of Truth for all DBOT platforms</p>
+            </footer>
+        </div>
+    </div>
+<script>
+// Chart Interactions (Desktop hover + Mobile click/tap)
+document.addEventListener("DOMContentLoaded", function() {
+    const segments = document.querySelectorAll(".donut-segment");
+    const tooltip = document.getElementById("chartTooltip");
+    const legendItems = document.querySelectorAll(".legend-item");
+    const barTooltip = document.getElementById("barTooltip");
+    const chartBars = document.querySelectorAll(".chart-bar");
+    let activeSegment = null;
+    let activeBar = null;
+    
+    // Donut Chart Segments
+    if (segments.length > 0 && tooltip) {
+        const showTooltip = function(segment, index) {
+            const name = segment.getAttribute("data-name");
+            const amount = segment.getAttribute("data-amount");
+            const percent = segment.getAttribute("data-percent");
+            
+            tooltip.querySelector(".tooltip-name").textContent = name;
+            tooltip.querySelector(".tooltip-amount").textContent = amount;
+            tooltip.querySelector(".tooltip-percent").textContent = percent;
+            tooltip.classList.add("visible");
+            
+            legendItems.forEach(item => item.classList.remove("active"));
+            if (legendItems[index]) legendItems[index].classList.add("active");
+        };
+        
+        const hideTooltip = function() {
+            tooltip.classList.remove("visible");
+            legendItems.forEach(item => item.classList.remove("active"));
+        };
+        
+        const toggleSegment = function(segment, index) {
+            if (activeSegment === segment) {
+                hideTooltip();
+                activeSegment = null;
+            } else {
+                showTooltip(segment, index);
+                activeSegment = segment;
+            }
+        };
+        
+        segments.forEach((segment, index) => {
+            // Desktop hover
+            segment.addEventListener("mouseenter", function() { showTooltip(this, index); });
+            segment.addEventListener("mouseleave", function() { 
+                if (activeSegment !== this) hideTooltip(); 
+            });
+            // Hover - show tooltip following cursor, update on each segment
+            segment.addEventListener("mouseenter", function(e) {
+                activeSegment = this;
+                updateSegmentTooltip(this, index, e);
+            });
+            
+            segment.addEventListener("mousemove", function(e) {
+                if (activeSegment === this) {
+                    updateSegmentTooltip(this, index, e);
+                }
+            });
+            
+            segment.addEventListener("mouseleave", function() {
+                activeSegment = null;
+                hideTooltip();
+            });
+            
+            function updateSegmentTooltip(segment, index, e) {
+                const name = segment.getAttribute("data-name");
+                const amount = segment.getAttribute("data-amount");
+                const percent = segment.getAttribute("data-percent");
+                
+                tooltip.querySelector(".tooltip-name").textContent = name;
+                tooltip.querySelector(".tooltip-amount").textContent = amount;
+                tooltip.querySelector(".tooltip-percent").textContent = percent;
+                tooltip.classList.add("visible");
+                
+                // Position tooltip at exact cursor position
+                tooltip.style.left = e.clientX + "px";
+                tooltip.style.top = e.clientY + "px";
+                tooltip.style.transform = "translate(0, -100%)";
+                tooltip.style.bottom = "auto";
+                
+                // Highlight legend
+                legendItems.forEach(item => item.classList.remove("active"));
+                if (legendItems[index]) legendItems[index].classList.add("active");
+            }
+        });
+        
+        // Legend Items
+        legendItems.forEach((item, index) => {
+            const showLegendTooltip = function() {
+                tooltip.querySelector(".tooltip-name").textContent = item.querySelector(".legend-name").textContent;
+                tooltip.querySelector(".tooltip-amount").textContent = "";
+                tooltip.querySelector(".tooltip-percent").textContent = item.querySelector(".legend-percent").textContent;
+                tooltip.classList.add("visible");
+                segments.forEach(s => s.style.opacity = "0.3");
+                if (segments[index]) segments[index].style.opacity = "1";
+            };
+            
+            item.addEventListener("mouseenter", showLegendTooltip);
+            item.addEventListener("mouseleave", function() {
+                tooltip.classList.remove("visible");
+                segments.forEach(s => s.style.opacity = "1");
+            });
+            item.addEventListener("click", function() { showLegendTooltip(); });
+        });
+    }
+    
+    // Bar Chart Tooltips
+    if (chartBars.length > 0 && barTooltip) {
+        const showBarTooltip = function(bar) {
+            const week = bar.getAttribute("data-week");
+            const voters = bar.getAttribute("data-voters");
+            const percent = bar.getAttribute("data-percent");
+            
+            barTooltip.innerHTML = "<div class='tooltip-week'>" + week + "</div><div class='tooltip-voters'>" + voters + " voters</div><div class='tooltip-percent'>" + percent + " of max</div>";
+            barTooltip.classList.add("visible");
+        };
+        
+        const hideBarTooltip = function() {
+            barTooltip.classList.remove("visible");
+        };
+        
+        const toggleBar = function(bar) {
+            if (activeBar === bar) {
+                hideBarTooltip();
+                activeBar = null;
+            } else {
+                showBarTooltip(bar);
+                activeBar = bar;
+            }
+        };
+        
+        chartBars.forEach(bar => {
+            // Desktop hover
+            bar.addEventListener("mouseenter", function() { showBarTooltip(this); });
+            bar.addEventListener("mouseleave", function() { 
+                if (activeBar !== this) hideBarTooltip(); 
+            });
+            // Hover - show tooltip following cursor, update on each bar
+            bar.addEventListener("mouseenter", function(e) {
+                activeBar = this;
+                updateBarTooltip(this, e);
+            });
+            
+            bar.addEventListener("mousemove", function(e) {
+                if (activeBar === this) {
+                    updateBarTooltip(this, e);
+                }
+            });
+            
+            bar.addEventListener("mouseleave", function() {
+                activeBar = null;
+                hideBarTooltip();
+            });
+            
+            function updateBarTooltip(bar, e) {
+                const week = bar.getAttribute("data-week");
+                const voters = bar.getAttribute("data-voters");
+                const percent = bar.getAttribute("data-percent");
+                
+                barTooltip.innerHTML = "<div class='tooltip-week'>" + week + "</div><div class='tooltip-voters'>" + voters + " voters</div><div class='tooltip-percent'>" + percent + " of max</div>";
+                barTooltip.classList.add("visible");
+                
+                // Position tooltip at exact cursor position
+                barTooltip.style.left = e.clientX + "px";
+                barTooltip.style.top = e.clientY + "px";
+                barTooltip.style.transform = "translate(0, -100%)";
+                barTooltip.style.bottom = "auto";
+            }
+        });
+    }
+    
+    // Close tooltips when clicking outside on mobile
+    document.addEventListener("click", function(e) {
+        if (!e.target.closest(".chart-container") && !e.target.closest(".legend-item")) {
+            if (tooltip) tooltip.classList.remove("visible");
+            activeSegment = null;
+            legendItems.forEach(item => item.classList.remove("active"));
+            segments.forEach(s => s.style.opacity = "1");
+        }
+        if (!e.target.closest(".line-chart")) {
+            if (barTooltip) barTooltip.classList.remove("visible");
+            activeBar = null;
+        }
+    });
+});
+</script>
+</body>
+</html>

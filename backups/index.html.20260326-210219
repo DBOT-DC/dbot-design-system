@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DBOT Design System - Source of Truth</title>
+    <link rel="stylesheet" href="./dbot-design-system.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+    <div class="terminal">
+        <header class="terminal-header">
+            <div class="terminal-controls">
+                <div class="control close"></div>
+                <div class="control minimize"></div>
+                <div class="control maximize"></div>
+            </div>
+            <div class="terminal-title">DBOT_DESIGN_SYSTEM.md - Source of Truth</div>
+            <div class="terminal-status online">
+                <div class="status-dot"></div>
+                <span id="status-text">LIVE</span>
+            </div>
+        </header>
+        
+        <div class="terminal-body">
+            <!-- Hero Section -->
+            <section class="hero-section">
+                <h1 class="hero-title">
+                    <span class="highlight">DBOT</span> Design System
+                </h1>
+                <p class="hero-subtitle">The single source of truth for all DBOT platforms</p>
+                <div class="fair-launch-badge">
+                    <i class="ph ph-sparkle"></i>
+                    Version 1.0 • Last Updated: 2026-03-26
+                </div>
+            </section>
+
+            <!-- Colors Section -->
+            <section class="content-section">
+                <h2 class="section-header">
+                    <i class="ph ph-palette"></i>
+                    01. Colors
+                </h2>
+                
+                <h3 class="subsection-title">Brand Colors</h3>
+                <div class="color-grid">
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: var(--purple)"></div>
+                        <div class="color-info">
+                            <span class="color-name">Purple</span>
+                            <code class="color-var">--purple</code>
+                            <code class="color-hex">#8B5CF6</code>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: var(--purple-light)"></div>
+                        <div class="color-info">
+                            <span class="color-name">Purple Light</span>
+                            <code class="color-var">--purple-light</code>
+                            <code class="color-hex">#A78BFA</code>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: var(--cyan)"></div>
+                        <div class="color-info">
+                            <span class="color-name">Cyan</span>
+                            <code class="color-var">--cyan</code>
+                            <code class="color-hex">#06B6D4</code>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: var(--green)"></div>
+                        <div class="color-info">
+                            <span class="color-name">Green</span>
+                            <code class="color-var">--green</code>
+                            <code class="color-hex">#22C55E</code>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: var(--red)"></div>
+                        <div class="color-info">
+                            <span class="color-name">Red</span>
+                            <code class="color-var">--red</code>
+                            <code class="color-hex">#EF4444</code>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: var(--gold)"></div>
+                        <div class="color-info">
+                            <span class="color-name">Gold</span>
+                            <code class="color-var">--gold</code>
+                            <code class="color-hex">#BA9F33</code>
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="subsection-title">Backgrounds</h3>
+                <div class="color-grid">
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: var(--bg-primary); border: 1px solid var(--text-dim)"></div>
+                        <div class="color-info">
+                            <span class="color-name">Primary</span>
+                            <code class="color-var">--bg-primary</code>
+                            <code class="color-hex">#0A0A0F</code>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: var(--bg-secondary)"></div>
+                        <div class="color-info">
+                            <span class="color-name">Secondary</span>
+                            <code class="color-var">--bg-secondary</code>
+                            <code class="color-hex">#12121A</code>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: var(--bg-tertiary)"></div>
+                        <div class="color-info">
+                            <span class="color-name">Tertiary</span>
+                            <code class="color-var">--bg-tertiary</code>
+                            <code class="color-hex">#1A1A25</code>
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="subsection-title">Text Colors</h3>
+                <div class="color-grid">
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: var(--text-primary)"></div>
+                        <div class="color-info">
+                            <span class="color-name">Primary</span>
+                            <code class="color-var">--text-primary</code>
+                            <code class="color-hex">#E2E8F0</code>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: var(--text-muted)"></div>
+                        <div class="color-info">
+                            <span class="color-name">Muted</span>
+                            <code class="color-var">--text-muted</code>
+                            <code class="color-hex">#64748B</code>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: var(--text-dim)"></div>
+                        <div class="color-info">
+                            <span class="color-name">Dim</span>
+                            <code class="color-var">--text-dim</code>
+                            <code class="color-hex">#334155</code>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Typography Section -->
+            <section class="content-section">
+                <h2 class="section-header">
+                    <i class="ph ph-text-aa"></i>
+                    02. Typography
+                </h2>
+                
+                <h3 class="subsection-title">Fonts</h3>
+                <div class="font-showcase">
+                    <div class="font-card">
+                        <span class="font-label">JetBrains Mono</span>
+                        <span class="font-sample mono">ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789</span>
+                        <code>--font-mono</code>
+                    </div>
+                    <div class="font-card">
+                        <span class="font-label">Space Grotesk</span>
+                        <span class="font-sample">ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789</span>
+                        <code>--font-sans</code>
+                    </div>
+                </div>
+
+                <h3 class="subsection-title">Type Scale</h3>
+                <div class="type-scale">
+                    <div class="type-sample">
+                        <span class="type-label">H1 Title</span>
+                        <h1 class="type-h1">Dashboard</h1>
+                        <code>3rem / bold / gradient or primary</code>
+                    </div>
+                    <div class="type-sample">
+                        <span class="type-label">H2 Section</span>
+                        <h2 class="type-h2">Active Proposals</h2>
+                        <code>1.5rem / semibold / primary</code>
+                    </div>
+                    <div class="type-sample">
+                        <span class="type-label">H3 Card Title</span>
+                        <h3 class="type-h3">Your Voting Power</h3>
+                        <code>1.25rem / semibold</code>
+                    </div>
+                    <div class="type-sample">
+                        <span class="type-label">Body</span>
+                        <p class="type-body">This is body text used for descriptions and content. It should be readable and comfortable for extended reading.</p>
+                        <code>1rem / normal / text-primary</code>
+                    </div>
+                    <div class="type-sample">
+                        <span class="type-label">Small</span>
+                        <p class="type-small">Supporting text and labels for secondary information</p>
+                        <code>0.875rem / text-muted</code>
+                    </div>
+                    <div class="type-sample">
+                        <span class="type-label">Mono/Code</span>
+                        <code class="type-code">0x742d35Cc6634C0532...9f5bD</code>
+                        <code>JetBrains Mono / text-muted</code>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Buttons Section -->
+            <section class="content-section">
+                <h2 class="section-header">
+                    <i class="ph ph-cursor-click"></i>
+                    03. Buttons
+                </h2>
+                
+                <h3 class="subsection-title">Primary Buttons</h3>
+                <div class="button-showcase">
+                    <button class="cta-btn primary">
+                        <i class="ph ph-plus"></i>
+                        Create Proposal
+                    </button>
+                    <button class="cta-btn primary" disabled>
+                        <i class="ph ph-plus"></i>
+                        Disabled
+                    </button>
+                </div>
+                
+                <h3 class="subsection-title">Secondary Buttons</h3>
+                <div class="button-showcase">
+                    <button class="cta-btn secondary">
+                        <i class="ph ph-chart-line"></i>
+                        View Analytics
+                    </button>
+                    <button class="cta-btn secondary" disabled>
+                        <i class="ph ph-chart-line"></i>
+                        Disabled
+                    </button>
+                </div>
+
+                <h3 class="subsection-title">Ghost Buttons</h3>
+                <div class="button-showcase">
+                    <button class="ghost-btn">
+                        <i class="ph ph-arrow-left"></i>
+                        Back
+                    </button>
+                    <button class="ghost-btn">
+                        <i class="ph ph-arrow-right"></i>
+                        Next
+                    </button>
+                </div>
+
+                <h3 class="subsection-title">Icon Buttons</h3>
+                <div class="button-showcase">
+                    <button class="icon-btn">
+                        <i class="ph ph-plus"></i>
+                    </button>
+                    <button class="icon-btn danger">
+                        <i class="ph ph-trash"></i>
+                    </button>
+                    <button class="icon-btn success">
+                        <i class="ph ph-check"></i>
+                    </button>
+                </div>
+
+                <h3 class="subsection-title">Button Sizes</h3>
+                <div class="button-showcase aligned">
+                    <button class="cta-btn primary sm">Small</button>
+                    <button class="cta-btn primary">Medium</button>
+                    <button class="cta-btn primary lg">Large Button</button>
+                </div>
+            </section>
+
+            <!-- Cards Section -->
+            <section class="content-section">
+                <h2 class="section-header">
+                    <i class="ph ph-squares-four"></i>
+                    04. Cards
+                </h2>
+                
+                <h3 class="subsection-title">Glass Card (Default)</h3>
+                <div class="glass-card">
+                    <h3 class="card-title">Card Title</h3>
+                    <p class="card-body">This is a glass card with a subtle border and hover glow effect. Use for content containers.</p>
+                    <button class="cta-btn primary sm">Action</button>
+                </div>
+
+                <h3 class="subsection-title">Stat Card</h3>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <span class="stat-label">Total Proposals</span>
+                        <span class="stat-value">47</span>
+                        <span class="stat-change positive">+12%</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-label">Active Votes</span>
+                        <span class="stat-value">3</span>
+                        <span class="stat-change positive">+2</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-label">Total Voters</span>
+                        <span class="stat-value">4,892</span>
+                        <span class="stat-change negative">-234</span>
+                    </div>
+                </div>
+
+                <h3 class="subsection-title">Proposal Card</h3>
+                <div class="proposal-card">
+                    <div class="proposal-header">
+                        <span class="proposal-id">#001</span>
+                        <span class="status-badge active">Active</span>
+                    </div>
+                    <h4 class="proposal-title">DIP-001: Increase Staking Rewards</h4>
+                    <div class="proposal-meta">
+                        <span><i class="ph ph-users"></i> 1,247 voters</span>
+                        <span><i class="ph ph-clock"></i> 2 days left</span>
+                    </div>
+                    <div class="proposal-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill for" style="width: 75%"></div>
+                        </div>
+                        <div class="progress-info">
+                            <span class="for-label">75% For</span>
+                            <span class="against-label">22% Against</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Badges Section -->
+            <section class="content-section">
+                <h2 class="section-header">
+                    <i class="ph ph-tag"></i>
+                    05. Badges & Tags
+                </h2>
+                
+                <h3 class="subsection-title">Status Badges</h3>
+                <div class="badge-showcase">
+                    <span class="status-badge active">Active</span>
+                    <span class="status-badge pending">Pending</span>
+                    <span class="status-badge passed">Passed</span>
+                    <span class="status-badge defeated">Defeated</span>
+                    <span class="status-badge executed">Executed</span>
+                </div>
+
+                <h3 class="subsection-title">Tags</h3>
+                <div class="badge-showcase">
+                    <span class="tag">#governance</span>
+                    <span class="tag">#staking</span>
+                    <span class="tag">#treasury</span>
+                </div>
+
+                <h3 class="subsection-title">Network Badge</h3>
+                <div class="network-badge">
+                    <div class="pulse-dot"></div>
+                    <span>Dogechain</span>
+                </div>
+            </section>
+
+            <!-- Inputs Section -->
+            <section class="content-section">
+                <h2 class="section-header">
+                    <i class="ph ph-text-input"></i>
+                    06. Form Inputs
+                </h2>
+                
+                <h3 class="subsection-title">Text Input</h3>
+                <div class="input-group">
+                    <label class="input-label">Wallet Address</label>
+                    <input type="text" class="text-input" placeholder="0x742d35Cc6634C0532...">
+                </div>
+
+                <h3 class="subsection-title">Textarea</h3>
+                <div class="input-group">
+                    <label class="input-label">Proposal Description</label>
+                    <textarea class="text-input textarea" rows="4" placeholder="Describe your proposal..."></textarea>
+                </div>
+
+                <h3 class="subsection-title">Search Input</h3>
+                <div class="search-input-wrapper">
+                    <i class="ph ph-magnifying-glass search-icon"></i>
+                    <input type="text" class="search-input" placeholder="Search proposals...">
+                </div>
+
+                <h3 class="subsection-title">Toggle/Checkbox</h3>
+                <div class="toggle-group">
+                    <label class="toggle">
+                        <input type="checkbox" checked>
+                        <span class="toggle-slider"></span>
+                    </label>
+                    <span>Enable notifications</span>
+                </div>
+            </section>
+
+            <!-- Terminal Section -->
+            <section class="content-section">
+                <h2 class="section-header">
+                    <i class="ph ph-terminal"></i>
+                    07. Terminal Component
+                </h2>
+                
+                <div class="terminal-example">
+                    <div class="terminal-header">
+                        <div class="terminal-controls">
+                            <div class="control close"></div>
+                            <div class="control minimize"></div>
+                            <div class="control maximize"></div>
+                        </div>
+                        <div class="terminal-title">DBOT_neuralOS ~ proposals.sh</div>
+                        <div class="terminal-status online">
+                            <div class="status-dot"></div>
+                            <span>READY</span>
+                        </div>
+                    </div>
+                    <div class="terminal-content">
+                        <p class="terminal-line">
+                            <span class="prompt">$</span> loading proposals...
+                        </p>
+                        <p class="terminal-line success">
+                            <span class="prompt">$</span> Found 47 proposals
+                        </p>
+                        <p class="terminal-line muted">
+                            <span class="prompt">$</span> <span class="cursor blink">_</span>
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Progress Section -->
+            <section class="content-section">
+                <h2 class="section-header">
+                    <i class="ph ph-chart-bar"></i>
+                    08. Progress Indicators
+                </h2>
+                
+                <h3 class="subsection-title">Voting Progress</h3>
+                <div class="progress-demo">
+                    <div class="progress-label">
+                        <span class="for-label">For 75%</span>
+                        <span class="against-label">Against 22%</span>
+                    </div>
+                    <div class="progress-bar stacked">
+                        <div class="progress-fill for" style="width: 75%"></div>
+                        <div class="progress-fill against" style="width: 22%"></div>
+                    </div>
+                    <div class="progress-meta">
+                        <span>Quorum: 65%</span>
+                        <span class="green">✓ Reached</span>
+                    </div>
+                </div>
+
+                <h3 class="subsection-title">Linear Progress</h3>
+                <div class="linear-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill purple" style="width: 60%"></div>
+                    </div>
+                    <span class="progress-percent">60%</span>
+                </div>
+            </section>
+
+            <!-- Navigation Section -->
+            <section class="content-section">
+                <h2 class="section-header">
+                    <i class="ph ph-list"></i>
+                    09. Navigation
+                </h2>
+                
+                <h3 class="subsection-title">Nav Links</h3>
+                <nav class="demo-nav">
+                    <a href="#" class="nav-link active">
+                        <i class="ph ph-house"></i>
+                        Dashboard
+                    </a>
+                    <a href="#" class="nav-link">
+                        <i class="ph ph-vote"></i>
+                        Proposals
+                    </a>
+                    <a href="#" class="nav-link">
+                        <i class="ph ph-coins"></i>
+                        Staking
+                    </a>
+                    <a href="#" class="nav-link">
+                        <i class="ph ph-bank"></i>
+                        Treasury
+                    </a>
+                </nav>
+
+                <h3 class="subsection-title">Breadcrumbs</h3>
+                <div class="breadcrumbs">
+                    <a href="#">Home</a>
+                    <i class="ph ph-caret-right"></i>
+                    <a href="#">Proposals</a>
+                    <i class="ph ph-caret-right"></i>
+                    <span>DIP-001</span>
+                </div>
+            </section>
+
+            <!-- Tables Section -->
+            <section class="content-section">
+                <h2 class="section-header">
+                    <i class="ph ph-table"></i>
+                    10. Tables
+                </h2>
+                
+                <div class="table-wrapper">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Proposal</th>
+                                <th>Status</th>
+                                <th>Votes</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>DIP-001: Increase Rewards</td>
+                                <td><span class="status-badge active">Active</span></td>
+                                <td>1.2M DC</td>
+                                <td><button class="cta-btn secondary sm">Vote</button></td>
+                            </tr>
+                            <tr>
+                                <td>DIP-002: Treasury Diversify</td>
+                                <td><span class="status-badge pending">Pending</span></td>
+                                <td>0 DC</td>
+                                <td><button class="cta-btn secondary sm" disabled>Vote</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Modals Section -->
+            <section class="content-section">
+                <h2 class="section-header">
+                    <i class="ph ph-windows-logo"></i>
+                    11. Modal/Dialog
+                </h2>
+                
+                <div class="modal-demo">
+                    <div class="modal-overlay"></div>
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title">Confirm Transaction</h3>
+                            <button class="icon-btn ghost"><i class="ph ph-x"></i></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Are you sure you want to stake 1,000 DC for 90 days?</p>
+                            <div class="modal-details">
+                                <div class="detail-row">
+                                    <span>Amount</span>
+                                    <span class="value">1,000 DC</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span>Lock Period</span>
+                                    <span class="value">90 days</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span>APY</span>
+                                    <span class="value green">10%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="cta-btn secondary">Cancel</button>
+                            <button class="cta-btn primary">Confirm</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Alerts Section -->
+            <section class="content-section">
+                <h2 class="section-header">
+                    <i class="ph ph-warning"></i>
+                    12. Alerts & Toasts
+                </h2>
+                
+                <div class="alert success">
+                    <i class="ph ph-check-circle"></i>
+                    <span>Proposal created successfully!</span>
+                </div>
+                <div class="alert error">
+                    <i class="ph ph-x-circle"></i>
+                    <span>Transaction failed. Please try again.</span>
+                </div>
+                <div class="alert warning">
+                    <i class="ph ph-warning-circle"></i>
+                    <span>You don't have enough voting power.</span>
+                </div>
+                <div class="alert info">
+                    <i class="ph ph-info"></i>
+                    <span>Voting period ends in 2 days.</span>
+                </div>
+            </section>
+
+            <!-- Spacing Section -->
+            <section class="content-section">
+                <h2 class="section-header">
+                    <i class="ph ph-arrows-out"></i>
+                    13. Spacing Scale
+                </h2>
+                
+                <div class="spacing-scale">
+                    <div class="spacing-item" style="width: 4px; height: 4px;"></div>
+                    <div class="spacing-item" style="width: 8px; height: 8px;"></div>
+                    <div class="spacing-item" style="width: 12px; height: 12px;"></div>
+                    <div class="spacing-item" style="width: 16px; height: 16px;"></div>
+                    <div class="spacing-item" style="width: 24px; height: 24px;"></div>
+                    <div class="spacing-item" style="width: 32px; height: 32px;"></div>
+                    <div class="spacing-item" style="width: 48px; height: 48px;"></div>
+                </div>
+                <code class="spacing-labels">4px • 8px • 12px • 16px • 24px • 32px • 48px</code>
+            </section>
+
+            <!-- Shadows/Glows Section -->
+            <section class="content-section">
+                <h2 class="section-header">
+                    <i class="ph ph-drop"></i>
+                    14. Shadows & Glows
+                </h2>
+                
+                <div class="glow-showcase">
+                    <div class="glow-box purple"></div>
+                    <div class="glow-box green"></div>
+                    <div class="glow-box cyan"></div>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="terminal-footer">
+                <p>DBOT Design System v1.0 • 2026-03-26</p>
+                <p>Source of Truth for all DBOT platforms</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
