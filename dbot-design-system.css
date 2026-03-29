@@ -310,9 +310,9 @@ body {
 
 .type-sample {
     background: var(--bg-tertiary);
-    padding: 16px;
+    padding: 20px;
     border-radius: 8px;
-    border: 1px solid var(--text-dim);;
+    border: 1px solid var(--text-dim);
     word-break: break-word;
 }
 
@@ -322,7 +322,7 @@ body {
     font-size: 0.65rem;
     color: var(--text-muted);
     text-transform: uppercase;
-    margin-bottom: 8px;
+    margin-bottom: 20px;
 }
 
 .type-h1 {
