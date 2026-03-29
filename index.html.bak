@@ -8,36 +8,6 @@
     <link rel="stylesheet" href="dbot-design-system.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-<style>
-    @font-face {
-        font-family: 'JetBrains Mono';
-        src: url('fonts/JetBrainsMono-Regular.ttf') format('truetype');
-        font-weight: 400;
-        font-style: normal;
-        font-display: swap;
-    }
-    @font-face {
-        font-family: 'JetBrains Mono';
-        src: url('fonts/JetBrainsMono-Bold.ttf') format('truetype');
-        font-weight: 700;
-        font-style: normal;
-        font-display: swap;
-    }
-    @font-face {
-        font-family: 'Space Grotesk';
-        src: url('fonts/SpaceGrotesk-Regular.ttf') format('truetype');
-        font-weight: 400;
-        font-style: normal;
-        font-display: swap;
-    }
-    @font-face {
-        font-family: 'Space Grotesk';
-        src: url('fonts/SpaceGrotesk-Bold.ttf') format('truetype');
-        font-weight: 700;
-        font-style: normal;
-        font-display: swap;
-    }
-</style>
     <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
 </head>
 <body>
@@ -332,12 +302,8 @@
                         <code style="font-size: 0.7rem; color: var(--text-muted);">Gradient</code>
                     </div>
                     <div>
-                        <div style="font-family: var(--font-mono); font-size: 1.5rem; font-weight: 700; color: var(--purple);">ÐBOT</div>
-                        <code style="font-size: 0.7rem; color: var(--text-muted);">Ð Symbol</code>
-                    </div>
-                    <div>
-                        <img src="DBOT-Logo-v1-CircuitBoard.jpg" alt="DBOT Logo" style="width: 48px; height: 48px; object-fit: contain;">
-                        <code style="font-size: 0.7rem; color: var(--text-muted);">Circuit Board</code>
+                        <div class="nav-logo" style="width: 32px; height: 32px; font-size: 1rem;">D</div>
+                        <code style="font-size: 0.7rem; color: var(--text-muted);">Icon</code>
                     </div>
                 </div>
             </section>
@@ -684,35 +650,6 @@
                         <span class="checkbox-label">I agree to terms</span>
                     </label>
                 </div>
-
-                <h3 class="subsection-title">Disabled States</h3>
-                <div class="input-stack">
-                    <div class="input-group">
-                        <label class="input-label" for="wallet-disabled">Wallet Address (Disabled)</label>
-                        <input type="text" id="wallet-disabled" class="input" placeholder="0x742d35Cc6634C0532..." disabled>
-                    </div>
-                    <div class="input-group">
-                        <label class="input-label" for="amount-disabled">Amount (Disabled)</label>
-                        <div class="input-wrapper">
-                            <input type="number" id="amount-disabled" class="input" placeholder="0.0" disabled>
-                            <span class="input-suffix">DC</span>
-                        </div>
-                    </div>
-                    <div class="input-group">
-                        <label class="input-label" for="select-disabled">Select Option (Disabled)</label>
-                        <select id="select-disabled" class="select" disabled>
-                            <option>Cannot select</option>
-                            <option>Option 1</option>
-                        </select>
-                    </div>
-                </div>
-
-                <h3 class="subsection-title">Button Disabled States</h3>
-                <div class="component-row">
-                    <button class="btn-primary" disabled>Primary Disabled</button>
-                    <button class="btn-secondary" disabled>Secondary Disabled</button>
-                    <button class="btn-ghost" disabled>Ghost Disabled</button>
-                </div>
             </section>
 
             <!-- ============ SECTION 8: NAVIGATION ============ -->
@@ -924,36 +861,6 @@
                 <div style="display: flex; align-items: center; gap: 12px; padding: 12px 16px; border-radius: 8px; margin-bottom: 12px; max-width: 500px; background: rgba(6, 182, 212, 0.15); border: 1px solid #06B6D4; color: #06B6D4;">
                     <i class="ph ph-info" style="font-size: 1.2rem;"></i>
                     <span>Voting period ends in 2 days. Make your voice heard!</span>
-                </div>
-            </section>
-
-            <!-- ============ SECTION 12b: EMPTY STATES ============ -->
-            <section class="content-section">
-                <h2 class="section-header">
-                    <i class="ph ph-inbox"></i>
-                    12b. Empty States
-                </h2>
-
-                <h3 class="subsection-title">Empty Data Table</h3>
-                <div class="card" style="text-align: center; padding: 48px 24px;">
-                    <i class="ph ph-table" style="font-size: 3rem; color: var(--text-dim); margin-bottom: 16px; display: block;"></i>
-                    <p style="color: var(--text-muted); margin-bottom: 8px; font-weight: 500;">No proposals found</p>
-                    <p style="color: var(--text-dim); font-size: 0.875rem; margin-bottom: 16px;">Create your first proposal to get started</p>
-                    <button class="btn btn-primary btn-sm">Create Proposal</button>
-                </div>
-
-                <h3 class="subsection-title">Empty Chart</h3>
-                <div class="card" style="text-align: center; padding: 48px 24px;">
-                    <i class="ph ph-chart-line" style="font-size: 3rem; color: var(--text-dim); margin-bottom: 16px; display: block;"></i>
-                    <p style="color: var(--text-muted); margin-bottom: 8px; font-weight: 500;">No voting data yet</p>
-                    <p style="color: var(--text-dim); font-size: 0.875rem;">Data will appear once voting begins</p>
-                </div>
-
-                <h3 class="subsection-title">Empty Search Results</h3>
-                <div class="card" style="text-align: center; padding: 48px 24px;">
-                    <i class="ph ph-magnifying-glass" style="font-size: 3rem; color: var(--text-dim); margin-bottom: 16px; display: block;"></i>
-                    <p style="color: var(--text-muted); margin-bottom: 8px; font-weight: 500;">No results for "invalid search"</p>
-                    <p style="color: var(--text-dim); font-size: 0.875rem;">Try a different search term</p>
                 </div>
             </section>
 
@@ -1323,40 +1230,9 @@
                     21. Footer
                 </h2>
                 
-                <!-- RESPONSIVE BEHAVIOR SECTION -->
-            <h2 class="section-header">
-                <i class="ph ph-device-mobile"></i>
-                21b. Responsive Behavior
-            </h2>
-
-            <h3 class="subsection-title">Breakpoints</h3>
-            <div class="table-wrapper">
-                <table class="data-table">
-                    <thead><tr><th>Breakpoint</th><th>Width</th><th>Devices</th><th>Layout</th></tr></thead>
-                    <tbody>
-                        <tr><td><code class="mono">xs</code></td><td>&lt; 640px</td><td>Mobile small</td><td>Single column, stacked cards</td></tr>
-                        <tr><td><code class="mono">sm</code></td><td>640px+</td><td>Mobile large</td><td>2-column grid</td></tr>
-                        <tr><td><code class="mono">md</code></td><td>768px+</td><td>Tablet</td><td>Sidebar collapses</td></tr>
-                        <tr><td><code class="mono">lg</code></td><td>1024px+</td><td>Desktop</td><td>Full layout, 3-column grid</td></tr>
-                    </tbody>
-                </table>
-            </div>
-
-            <h3 class="subsection-title">Component Reflow</h3>
-            <div class="stack-grid">
-                <div class="card"><p class="card-title">Cards</p><p style="color: var(--text-muted); font-size: 0.875rem;">1 col &lt;640px, 2 col 640px+</p></div>
-                <div class="card"><p class="card-title">Charts</p><p style="color: var(--text-muted); font-size: 0.875rem;">Full width mobile, centered desktop</p></div>
-                <div class="card"><p class="card-title">Navigation</p><p style="color: var(--text-muted); font-size: 0.875rem;">Hamburger &lt;768px</p></div>
-            </div>
-
-            <div class="alert alert-info" style="max-width: 600px; margin-top: 16px;">
-                <i class="ph ph-info"></i>
-                <span>Glow effects: use sparingly on mobile (max 2 per page) for battery performance.</span>
-            </div>
-
-            <footer class="footer">
+                <footer class="footer">
                     <div class="footer-brand">
-                        <img src="DBOT-Logo-v1-CircuitBoard.jpg" alt="DBOT Logo" style="width: 48px; height: 48px; object-fit: contain;">
+                        <div class="footer-logo">D</div>
                         <div class="footer-text">
                             <span class="footer-name">DBOT</span>
                             <span class="footer-tagline">Decentralized Governance</span>
