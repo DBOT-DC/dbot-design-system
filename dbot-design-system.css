@@ -6,13 +6,13 @@
    ======================================== */
 :root {
     /* Colors - Primary Palette */
-    --purple: #7B4EE6;
+    --purple: #8B5CF6;
     --purple-light: #A78BFA;
     --purple-glow: rgba(139, 92, 246, 0.4);
     --cyan: #06B6D4;
     --green: #22C55E;
     --red: #EF4444;
-    --gold: #D4A94B;
+    --gold: #BA9F33;
     --amber: #F59E0B;
     
     /* Backgrounds */
@@ -22,7 +22,8 @@
     
     /* Text */
     --text-primary: #E2E8F0;
-    --text-muted: #A0AEC0;
+    --text-muted: #94A3B8;
+    --text-secondary: #64748B;
     --text-dim: #334155;
     
     /* Fonts */
@@ -116,7 +117,7 @@ body {
     animation: pulse-purple 2s ease-in-out infinite;
 }
 
-@keyframes pulse {
+@keyframes pulse-purple {
     0%, 100% { opacity: 1; }
     50% { opacity: 0.4; }
 }
@@ -279,6 +280,7 @@ body {
 }
 
 .type-card {
+    min-width: 0;
     background: var(--bg-secondary);
     border: 1px solid var(--border-color);
     border-radius: 12px;
@@ -310,11 +312,12 @@ body {
     background: var(--bg-tertiary);
     padding: 16px;
     border-radius: 8px;
-    border: 1px solid var(--text-dim);
+    border: 1px solid var(--text-dim);;
+    word-break: break-word;
 }
 
 .type-label {
-    display: inline;
+    display: block;
     font-family: var(--font-mono);
     font-size: 0.65rem;
     color: var(--text-muted);
@@ -1865,7 +1868,7 @@ body {
 
 .chart-color-swatch.purple { background: var(--purple); }
 .chart-color-swatch.cyan { background: var(--cyan); }
-.chart-color-swatch.green { background: var(--purple); }
+.chart-color-swatch.green { background: var(--green); }
 .chart-color-swatch.red { background: var(--red); }
 .chart-color-swatch.amber { background: var(--amber); }
 .chart-color-swatch.gold { background: var(--gold); }
@@ -2275,11 +2278,6 @@ body {
 .pulse {
     animation: pulse-purple 2s ease-in-out infinite;
 }
-@keyframes pulse {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.4; }
-}
-
 /* Spin Animation */
 .spin {
     animation: spin 1s linear infinite;
@@ -2417,11 +2415,6 @@ body {
     animation: bounce 1s infinite;
 }
 
-@keyframes bounce {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-10px); }
-}
-
 .pulse-demo {
     position: relative;
     width: 40px;
@@ -2453,21 +2446,11 @@ body {
     animation: pulse-dot 1s ease-in-out infinite;
 }
 
-@keyframes pulse-dot {
-    0%, 100% { transform: scale(1); }
-    50% { transform: scale(0.8); }
-}
-
 .spin-demo {
     font-size: 2rem;
     color: var(--cyan);
     animation: spin 1s linear infinite;
     display: inline-flex;
-}
-
-@keyframes spin {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
 }
 
 
@@ -2839,7 +2822,7 @@ body {
 
 .bar-fill.purple { background: var(--purple); }
 .bar-fill.cyan { background: var(--cyan); }
-.bar-fill.green { background: var(--purple); }
+.bar-fill.green { background: var(--green); }
 .bar-fill.gold { background: var(--gold); }
 .bar-fill.purple-light { background: var(--purple-light); }
 .bar-fill.gray { background: var(--text-muted); }
