@@ -700,6 +700,15 @@ body {
     border-radius: 12px;
     padding: 24px;
     transition: all 0.3s;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .glass-card, .card { max-width: 400px; }
+}
+@media (min-width: 1024px) {
+    .glass-card, .card { max-width: 480px; }
 }
 
 .glass-card:hover {
