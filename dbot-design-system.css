@@ -285,6 +285,9 @@ body {
     border: 1px solid var(--border-color);
     border-radius: 12px;
     padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .type-card.mono .type-sample {
@@ -297,7 +300,7 @@ body {
 
 .type-card code {
     display: block;
-    margin-top: 12px;
+    margin-top: 16px;
     font-size: 0.75rem;
     color: var(--text-muted);
 }
@@ -322,7 +325,7 @@ body {
     font-size: 0.65rem;
     color: var(--text-muted);
     text-transform: uppercase;
-    margin-bottom: 48px;
+    padding-bottom: 24px;
 }
 
 .type-h1 {
